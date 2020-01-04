@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px;
+}
+
+footer {
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px;
+    clear: both;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#titleCard1,#titleCard2 {
+    border-bottom: 5px solid black;
+    padding: 20px;
+}
+
+div {
+    width: 47%;
+    height: 550px;
+    float: left;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: wheat;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#divCard2 {
+    margin-left: 55px;
+}
+
+.cancel1,.cancel2 {
+    margin-right: 450px;
+    margin-left: 30px;
+}
+
+.buy1,.buy2 {
+    background-color: green;
+    color: black;
+}
+
+.buy1,.buy2:hover {
+    background-color: aqua;
+}
+
+.cancel1,.cancel2 {
+    background-color: rgb(161, 2, 23);
+    color: black;
+}
+
+.cancel1,.cancel2:hover {
+    background-color: rgb(223, 54, 110);
+}
+
+p {
+    padding-left: 10px;
+}
+
+
+
