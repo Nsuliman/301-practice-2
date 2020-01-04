@@ -47,7 +47,6 @@ div {
 a {
     display: inline;
     text-decoration: none;
-    /* margin-left: 180px; */
     border: 3px solid black;
     padding: 10px;
 }
@@ -56,9 +55,12 @@ a {
     margin-left: 55px;
 }
 
-.buy1,.buy2 {
+.cancel1,.cancel2 {
     margin-right: 450px;
     margin-left: 30px;
+}
+
+.buy1,.buy2 {
     background-color: green;
     color: black;
 }
@@ -74,6 +76,10 @@ a {
 
 .cancel1,.cancel2:hover {
     background-color: rgb(223, 54, 110);
+}
+
+p {
+    padding-left: 10px;
 }
 
 
